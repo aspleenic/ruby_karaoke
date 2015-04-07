@@ -1,5 +1,5 @@
 if config.framework_env == 'staging'
-    run "cd ./build && bundle exec middleman build --destination 'build' --future --drafts"
+    run "cd #{config.release_path} && bundle exec middleman build"
 else
-    run "cd ./build && bundle exec middleman build --destination 'build'"
+    run "cd #{config.release_path} && bundle exec middleman build"
 end
