@@ -18,7 +18,7 @@ h1 {
 
 .doc {
   font-size: 14px;
-  margin: 0; }
+  margin: 1; }
   .doc:before,
   .doc:after {
     opacity: .2;
